@@ -1,16 +1,8 @@
-#Conditionals
-#Estos operadores devuelven una afirmación boleana si se cumple o no 'True' 'False'
-#     >     Mayor    
-#     >     Menor
-#     >=    Mayor igual
-#     <=    Menor igual
-#     ==    Igual
-#     !     Diferent    on python !=
-#     !=    No identico On python !==
-#----------------------------------------------------------------------------------------
+#Ejemplos de ciclos
+#While is for cicle, for is for itinerance , (not in python )
+while True:
+      number = float(input("Insert one number"))
+      if (number %2 == 0 and number >10):
+       exit()
 
-age = int(input("Insert your age: "))
-if age >= 18:
-      print("Es mayor de edad")
-else:
-      print("Nose :( lo que eres")
+
